@@ -39,6 +39,8 @@ router.post(
 );
 
 
+
+///API_BASE_URL=http://localhost:5000
 const getCkImage = async (req, res) => {
   try {
     return res.status(200).send({
